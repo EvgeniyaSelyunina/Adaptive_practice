@@ -1,0 +1,23 @@
+.block-3 {
+  padding-top: 60px;
+}
+.block-3__title {
+  font-size: 54px;
+  text-align: center;
+  padding-bottom: 56px;
+}
+
+.block-3__items {
+  display: flex;
+}
+
+.block-3__img {
+  width: 100%;
+  height: 300px;
+  &--blue {
+    background-color: #83d0f5;
+  }
+  &--green {
+    background-color: #cfe09b;
+  }
+}

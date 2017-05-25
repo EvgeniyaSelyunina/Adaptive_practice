@@ -1,0 +1,9 @@
+@mixin container-fluid() {
+  background-color: #ffffff;
+  width: 100%;
+
+  @media ($desktop-widths) {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+}

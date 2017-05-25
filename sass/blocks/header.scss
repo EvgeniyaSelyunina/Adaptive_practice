@@ -1,0 +1,32 @@
+.header {
+  background-color: #009fe3;
+}
+
+.header_inner {
+  @include container-fluid();
+  padding: 0 20px;
+  background-color: #009fe3;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.header__left {
+  width: 100px;
+  height: 70px;
+  margin: 16px 0px;
+  background-color: #83d0f5;
+}
+
+.header__right {
+  background-color: #009fe3;
+  display: flex;
+}
+
+.header__one, .header__two {
+  width: 300px;
+  height: 50px;
+  margin: 26px 0px;
+  margin-left: 20px;
+  background-color: #e5e5e5;
+}

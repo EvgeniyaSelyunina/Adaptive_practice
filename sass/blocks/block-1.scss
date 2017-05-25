@@ -1,0 +1,22 @@
+.block-1 {
+  @include container-fluid();
+  padding: 70px 20px;
+  border: 1px solid red;
+}
+
+.block-1__title {
+  font-size: 54px;
+  text-align: center;
+  padding-bottom: 56px;
+}
+
+.block-1__gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-1__img {
+  width: 362px;
+  height: 200px;
+  background-color: #83d0f5;
+}

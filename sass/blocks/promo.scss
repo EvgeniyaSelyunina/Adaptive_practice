@@ -1,0 +1,25 @@
+.promo {
+  background-color: #e2e6e7;
+}
+
+.promo_inner {
+  @include container-fluid();
+  padding: 90px 20px;
+  background-color: #e2e6e7;
+  border: 1px solid red;
+}
+
+.promo__title {
+  width: 600px;
+  font-size: 70px;
+}
+
+.promo__description {
+  width: 630px;
+  padding-bottom: 30px;
+}
+
+.promo__button {
+  padding: 25px 130px;
+  background-color: #ffffff;
+}

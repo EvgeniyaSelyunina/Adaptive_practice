@@ -1,0 +1,31 @@
+.block-2 {
+  background-color: #eeeeee;
+}
+
+.block-2_inner {
+  @include container-fluid();
+  padding: 50px 20px;
+  border: 1px solid red;
+  background-color: #eeeeee;
+}
+
+.block-2__title {
+  font-size: 54px;
+  text-align: center;
+  padding-bottom: 56px;
+}
+
+.block-2__articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-2__img {
+  width: 272px;
+  height: 198px;
+  background-color: #83d0f5;
+}
+
+.block-2__text {
+  width: 272px;
+}

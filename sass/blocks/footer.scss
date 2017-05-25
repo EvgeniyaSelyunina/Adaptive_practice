@@ -1,0 +1,40 @@
+.footer {
+  background-color: #8f99cd;
+}
+
+.footer__inner {
+  @include container-fluid();
+  padding: 35px 20px;
+  border: 1px solid red;
+  background-color: #8f99cd;
+}
+
+.footer__text {
+  width: 412px;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 45px;
+}
+
+.footer__grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__left {
+  display: flex;
+}
+
+.footer__item {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  margin-right: 15px;
+}
+
+.footer__right {
+  width: 152px;
+  height: 20px;
+  background-color: #ffffff;
+}

@@ -1,0 +1,24 @@
+@import "global/normalize.scss";
+@import "global/variables.scss";
+@import "global/mixins.scss";
+@import "global/fonts.scss";
+
+@import "blocks/header.scss";
+@import "blocks/promo.scss";
+@import "blocks/block-1.scss";
+@import "blocks/block-2.scss";
+@import "blocks/block-3.scss";
+@import "blocks/block-4.scss";
+@import "blocks/footer.scss";
+
+body {
+  min-width: 320px;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Myriad Pro", Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+}
