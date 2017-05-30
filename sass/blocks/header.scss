@@ -9,6 +9,16 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid red;
+  @media ($tablet-width) {
+    width: 100%;
+    justify-content: space-around;
+    padding: 0px;
+  }
+  @media ($mobile-width) {
+    display: block;
+    padding: 0px;
+  }
+
 }
 
 .header__left {
@@ -16,6 +26,10 @@
   height: 70px;
   margin: 16px 0px;
   background-color: #83d0f5;
+  @media ($mobile-width) {
+    margin: 0 auto;
+    margin-top: 16px;
+  }
 }
 
 .header__right {
@@ -29,4 +43,19 @@
   margin: 26px 0px;
   margin-left: 20px;
   background-color: #e5e5e5;
+  @media ($tablet-width) {
+    width: 220px;
+  }
+  @media ($mobile-width) {
+    margin: 0 auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    width: 70%;
+  }
+}
+
+.header__one {
+  @media ($mobile-width) {
+    display: none;
+  }
 }

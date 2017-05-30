@@ -7,19 +7,38 @@
   padding: 90px 20px;
   background-color: #e2e6e7;
   border: 1px solid red;
+  @media ($mobile-width) {
+    padding: 35px 20px;
+    padding-bottom: 55px;
+  }
 }
 
 .promo__title {
   width: 600px;
   font-size: 70px;
+  @media ($mobile-width) {
+    width: 90%;
+    font-size: 45px;
+    text-align: center;
+  }
 }
 
 .promo__description {
   width: 630px;
   padding-bottom: 30px;
+  @media ($mobile-width) {
+    width: 90%;
+    text-align: center;
+  }
 }
 
 .promo__button {
   padding: 25px 130px;
   background-color: #ffffff;
+  @media ($mobile-width) {
+    display: block;
+    width: 100%;
+    padding: 8% 3%;
+    margin: 0 auto;
+  }
 }

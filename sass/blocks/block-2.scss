@@ -7,25 +7,47 @@
   padding: 50px 20px;
   border: 1px solid red;
   background-color: #eeeeee;
+  @media ($tablet-width) {
+    width: 100%;
+    padding: 40px 0px;
+  }
 }
 
 .block-2__title {
   font-size: 54px;
   text-align: center;
   padding-bottom: 56px;
+
+  @media ($tablet-width) {
+    padding-bottom: 38px;
+  }
 }
 
 .block-2__articles {
   display: flex;
   justify-content: space-between;
+
+  @media ($tablet-width) {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }
 
 .block-2__img {
   width: 272px;
   height: 198px;
   background-color: #83d0f5;
+
+  @media ($tablet-width) {
+    width: 250px;
+    height: 150px;
+  }
 }
 
 .block-2__text {
   width: 272px;
+
+  @media ($tablet-width) {
+    width: 250px;
+  }
 }

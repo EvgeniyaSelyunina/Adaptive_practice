@@ -2,21 +2,40 @@
   @include container-fluid();
   padding: 70px 20px;
   border: 1px solid red;
+
+  @media ($tablet-width) {
+    width: 100%;
+    padding: 50px 0px;
+  }
 }
 
 .block-1__title {
   font-size: 54px;
   text-align: center;
   padding-bottom: 56px;
+
+  @media ($tablet-width) {
+    font-size: 54px;
+    padding-bottom: 40px;
+  }
 }
 
 .block-1__gallery {
   display: flex;
   justify-content: space-between;
+
+  @media ($tablet-width) {
+    justify-content: space-around;
+  }
 }
 
 .block-1__img {
   width: 362px;
   height: 200px;
   background-color: #83d0f5;
+
+  @media ($tablet-width) {
+    width: 200px;
+    height: 130px;
+  }
 }

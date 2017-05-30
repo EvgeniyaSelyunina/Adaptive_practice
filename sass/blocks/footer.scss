@@ -20,6 +20,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 30px;
+  @media ($tablet-width) {
+    justify-content: flex-start;
+  }
 }
 
 .footer__left {
@@ -37,4 +41,7 @@
   width: 152px;
   height: 20px;
   background-color: #ffffff;
+  @media ($tablet-width) {
+    margin-left: 11%;
+  }
 }

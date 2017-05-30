@@ -1,6 +1,7 @@
 .block-3 {
   padding-top: 60px;
 }
+
 .block-3__title {
   font-size: 54px;
   text-align: center;
@@ -19,5 +20,9 @@
   }
   &--green {
     background-color: #cfe09b;
+  }
+
+  @media ($tablet-width) {
+    height: 180px;
   }
 }
