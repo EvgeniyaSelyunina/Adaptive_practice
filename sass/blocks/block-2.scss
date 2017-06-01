@@ -11,6 +11,9 @@
     width: 100%;
     padding: 40px 0px;
   }
+  @media ($mobile-width) {
+    padding: 30px 0px;
+  }
 }
 
 .block-2__title {
@@ -20,6 +23,13 @@
 
   @media ($tablet-width) {
     padding-bottom: 38px;
+  }
+  @media ($mobile-width) {
+    width: 90%;
+    font-size: 45px;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 25px;
   }
 }
 
@@ -33,6 +43,12 @@
   }
 }
 
+.block-2__article {
+  @media ($mobile-width) {
+    text-align: center;
+  }
+}
+
 .block-2__img {
   width: 272px;
   height: 198px;
@@ -42,12 +58,17 @@
     width: 250px;
     height: 150px;
   }
+  @media ($mobile-width) {
+    width: 280px;
+  }
 }
 
 .block-2__text {
   width: 272px;
-
   @media ($tablet-width) {
     width: 250px;
+  }
+  @media ($mobile-width) {
+    width: 280px;
   }
 }

@@ -8,7 +8,7 @@
   background-color: #e2e6e7;
   border: 1px solid red;
   @media ($mobile-width) {
-    padding: 35px 20px;
+    padding: 35px 0px;
     padding-bottom: 55px;
   }
 }
@@ -20,6 +20,7 @@
     width: 90%;
     font-size: 45px;
     text-align: center;
+    padding: 0px 20px;
   }
 }
 
@@ -29,6 +30,7 @@
   @media ($mobile-width) {
     width: 90%;
     text-align: center;
+    padding: 0px 20px;
   }
 }
 
@@ -37,8 +39,9 @@
   background-color: #ffffff;
   @media ($mobile-width) {
     display: block;
-    width: 100%;
-    padding: 8% 3%;
+    width: 68%;
+    padding: 23px 0px;
+    text-align: center;
     margin: 0 auto;
   }
 }

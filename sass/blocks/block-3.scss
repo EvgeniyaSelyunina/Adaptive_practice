@@ -1,15 +1,28 @@
 .block-3 {
   padding-top: 60px;
+  @media ($mobile-width) {
+    padding-top: 30px;
+  }
 }
 
 .block-3__title {
   font-size: 54px;
   text-align: center;
   padding-bottom: 56px;
+  @media ($mobile-width) {
+    width: 90%;
+    font-size: 45px;
+    text-align: center;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+  }
 }
 
 .block-3__items {
   display: flex;
+  @media ($mobile-width) {
+    display: block;
+  }
 }
 
 .block-3__img {
@@ -24,5 +37,8 @@
 
   @media ($tablet-width) {
     height: 180px;
+  }
+  @media ($mobile-width) {
+    height: 160px;
   }
 }

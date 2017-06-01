@@ -18,7 +18,33 @@
     display: block;
     padding: 0px;
   }
+}
 
+.header__toggle {
+  display: none;
+  @media ($mobile-width) {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    width: 45px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    padding-top: 6px;
+  }
+}
+
+.header__icon-menu {
+  display: none;
+  @media ($mobile-width) {
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin-bottom: 8px;
+    background-color: #009fe3;
+  }
 }
 
 .header__left {
