@@ -8,7 +8,6 @@
   background-color: #009fe3;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   @media ($tablet-width) {
     width: 100%;
     justify-content: space-around;
@@ -17,6 +16,7 @@
   @media ($mobile-width) {
     display: block;
     padding: 0px;
+    padding-top: 16px;
   }
 }
 
@@ -54,7 +54,6 @@
   background-color: #83d0f5;
   @media ($mobile-width) {
     margin: 0 auto;
-    margin-top: 16px;
   }
 }
 

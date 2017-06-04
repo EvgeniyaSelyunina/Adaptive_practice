@@ -5,7 +5,6 @@
 .block-2_inner {
   @include container-fluid();
   padding: 50px 20px;
-  border: 1px solid red;
   background-color: #eeeeee;
   @media ($tablet-width) {
     width: 100%;

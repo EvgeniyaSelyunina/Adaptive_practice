@@ -5,7 +5,6 @@
 .footer__inner {
   @include container-fluid();
   padding: 35px 20px;
-  border: 1px solid red;
   background-color: #8f99cd;
   @media ($mobile-width) {
     padding: 35px 0px;

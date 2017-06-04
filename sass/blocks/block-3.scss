@@ -20,8 +20,11 @@
 
 .block-3__items {
   display: flex;
+  @media ($tablet-width) {
+    flex-wrap: wrap;
+  }
   @media ($mobile-width) {
-    display: block;
+    flex-wrap: wrap;
   }
 }
 
@@ -36,9 +39,12 @@
   }
 
   @media ($tablet-width) {
-    height: 180px;
+    width: 33.33%;
+    height: 240px;
   }
   @media ($mobile-width) {
+    width: 50%;
     height: 160px;
+    margin-bottom: 20px;
   }
 }

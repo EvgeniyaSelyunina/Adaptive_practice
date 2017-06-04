@@ -1,8 +1,6 @@
 .block-1 {
   @include container-fluid();
   padding: 70px 20px;
-  border: 1px solid red;
-
   @media ($tablet-width) {
     width: 100%;
     padding: 50px 0px;

@@ -436,8 +436,7 @@ template {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  border: 1px solid red; }
+          justify-content: space-between; }
 
 .header__toggle {
   display: none; }
@@ -471,8 +470,7 @@ template {
   background-color: #ffffff;
   width: 100%;
   padding: 90px 20px;
-  background-color: #e2e6e7;
-  border: 1px solid red; }
+  background-color: #e2e6e7; }
 
 .promo__title {
   width: 600px;
@@ -489,8 +487,7 @@ template {
 .block-1 {
   background-color: #ffffff;
   width: 100%;
-  padding: 70px 20px;
-  border: 1px solid red; }
+  padding: 70px 20px; }
 
 .block-1__title {
   font-size: 54px;
@@ -517,7 +514,6 @@ template {
   background-color: #ffffff;
   width: 100%;
   padding: 50px 20px;
-  border: 1px solid red;
   background-color: #eeeeee; }
 
 .block-2__title {
@@ -565,8 +561,7 @@ template {
 .block-4 {
   background-color: #ffffff;
   width: 100%;
-  padding: 60px 20px;
-  border: 1px solid red; }
+  padding: 60px 20px; }
 
 .block-4__title {
   font-size: 54px;
@@ -625,7 +620,6 @@ template {
   background-color: #ffffff;
   width: 100%;
   padding: 35px 20px;
-  border: 1px solid red;
   background-color: #8f99cd; }
 
 .footer__text {
@@ -728,8 +722,12 @@ body {
     height: 150px; }
   .block-2__text {
     width: 250px; }
+  .block-3__items {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
   .block-3__img {
-    height: 180px; }
+    width: 33.33%;
+    height: 240px; }
   .block-4 {
     padding: 50px 0px; }
   .block-4__title {
@@ -774,7 +772,8 @@ body {
 @media (max-width: 699px) {
   .header_inner {
     display: block;
-    padding: 0px; }
+    padding: 0px;
+    padding-top: 16px; }
   .header__toggle {
     display: block;
     position: absolute;
@@ -793,8 +792,7 @@ body {
     margin-bottom: 8px;
     background-color: #009fe3; }
   .header__left {
-    margin: 0 auto;
-    margin-top: 16px; }
+    margin: 0 auto; }
   .header__one, .header__two {
     margin: 0 auto;
     margin-top: 22px;
@@ -859,9 +857,12 @@ body {
     padding: 0px 20px;
     margin-bottom: 30px; }
   .block-3__items {
-    display: block; }
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
   .block-3__img {
-    height: 160px; }
+    width: 50%;
+    height: 160px;
+    margin-bottom: 20px; }
   .block-4 {
     padding: 35px 0px;
     padding-left: 20px; }
