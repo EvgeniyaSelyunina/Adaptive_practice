@@ -1,9 +1,10 @@
 .block-1 {
   @include container-fluid();
   padding: 70px 20px;
+  box-sizing: border-box;
   @media ($tablet-width) {
     width: 100%;
-    padding: 50px 0px;
+    padding: 35px 0px 0px 0px;
   }
   @media ($mobile-width) {
     padding: 30px 0px;
@@ -14,18 +15,17 @@
 .block-1__title {
   font-size: 54px;
   text-align: center;
-  padding-bottom: 56px;
+  margin-bottom: 56px;
 
   @media ($tablet-width) {
     font-size: 54px;
-    padding-bottom: 40px;
+    margin-bottom: 37px;
   }
   @media ($mobile-width) {
     width: 90%;
     font-size: 45px;
     text-align: center;
     padding: 0px 20px;
-    padding-bottom: 30px;
   }
 }
 
@@ -35,24 +35,23 @@
 
   @media ($tablet-width) {
     justify-content: space-around;
-  }
-  @media ($mobile-width) {
     flex-wrap: wrap;
   }
 }
 
 .block-1__img {
-  width: 362px;
+  width: 32%;
   height: 200px;
   background-color: #83d0f5;
 
   @media ($tablet-width) {
-    width: 200px;
-    height: 130px;
+    width: 37%;
+    height: 170px;
+    margin-bottom: 37px;
   }
   @media ($mobile-width) {
-    width: 280px;
-    height: 155px;
+    width: 65%;
+    height: 180px;
     margin-bottom: 25px;
   }
 }

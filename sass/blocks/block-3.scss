@@ -8,7 +8,7 @@
 .block-3__title {
   font-size: 54px;
   text-align: center;
-  padding-bottom: 56px;
+  margin-bottom: 56px;
   @media ($mobile-width) {
     width: 90%;
     font-size: 45px;
@@ -19,6 +19,7 @@
 }
 
 .block-3__items {
+  width: 100%;
   display: flex;
   @media ($tablet-width) {
     flex-wrap: wrap;
@@ -29,7 +30,7 @@
 }
 
 .block-3__img {
-  width: 100%;
+  width: 25%;
   height: 300px;
   &--blue {
     background-color: #83d0f5;

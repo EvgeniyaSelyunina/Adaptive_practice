@@ -3,7 +3,7 @@
   width: 100%;
 
   @media ($desktop-widths) {
-    width: 1240px;
+    max-width: 1240px;
     margin: 0 auto;
   }
 }
